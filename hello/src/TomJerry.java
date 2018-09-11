@@ -5,20 +5,22 @@ public class TomJerry {
         Scanner input = new Scanner(System.in);     // Initializing scanner
         long n;
         n = input.nextLong();                       // Taking Input
-        if (n % 2 == 0) {                           // Logic to check even numbers
-            if (n > 20 && n < 30) {
-                System.out.println ("Tom");
+    }
+        public String EvenOdd(int n){
+            if (n % 2 == 0) {                           // Logic to check even numbers
+                if (n > 20 && n < 30) {
+                    return "Tom";
+                } else {
+                    return "Number does not lie between 20 and 30";
+                }
             } else {
-                System.out.println ("Number does not lie between 20 and 30");
-            }
-        } else {
-            if (n > 20 && n < 30) {
-                System.out.println ("Jerry");
+                if (n > 20 && n < 30) {
+                    return "Jerry";
 
-            } else {
-                System.out.println ("Number does not lie between 20 and 30");
+                } else {
+                    return "Number does not lie between 20 and 30";
+                }
             }
         }
     }
-}
 

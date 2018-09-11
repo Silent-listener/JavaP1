@@ -1,6 +1,11 @@
 public class HelloWorld {
+    public static String printHelloWorld (){
+        return "Hello, World";
+    }
+
     public static void main (String args[])
     {
-        System.out.println ("Hello, World");     // Printing Hello World!
+        System.out.printf("\n");
+        printHelloWorld();
     }
 }
